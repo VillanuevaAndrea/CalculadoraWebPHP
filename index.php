@@ -63,12 +63,17 @@ if (isset($_POST['calcular'])) {
                 <div class="mb-3">
                     <input type="number" step="any" name="n2" class="form-control" placeholder="Número 2" required value="<?= $_POST['n2'] ?? '' ?>">
                 </div>
+                <div class="mb-3">
                 <button type="submit" name="calcular" class="btn btn-primary w-100">
                     Calcular
                 </button>
-                <button type="submit" name="limpiar" class="btn btn-outline-danger px-4">
+                </div>
+                
+                <div>
+                <button type="submit" name="limpiar" class="btn btn-outline-danger w-100"  >
                     Limpiar Todo
                 </button>
+                </div>
             </form>
 
             <?php if ($resultado !== ""): ?>
