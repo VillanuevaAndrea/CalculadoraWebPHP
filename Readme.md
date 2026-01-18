@@ -1,5 +1,4 @@
-#Calculadora Web con PHP y Bootstrap
-
+## Calculadora Web con PHP y Bootstrap
 Este es un proyecto desarrollado en **PHP**, donde se implementó una calculadora funcional que maneja peticiones mediante el método **POST** y mantiene un diseño moderno y responsivo utilizando **Bootstrap 5**.
 
 ## Características
